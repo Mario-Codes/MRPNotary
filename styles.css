@@ -336,6 +336,10 @@ footer {
     width: 100%;
     max-width: 500px;
   }
+  .seal {
+    margin-left: auto;
+    margin-right: auto;
+  }
   .split {
     grid-template-columns: 1fr;
     gap: 40px;
