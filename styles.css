@@ -239,6 +239,79 @@ h2 {
   object-fit: cover;
   display: block;
 }
+.about-copy {
+  width: 100%;
+}
+.check-list {
+  padding-left: 1.2rem;
+  margin: 24px 0 0;
+  color: #5f565a;
+  line-height: 1.8;
+}
+.info-banner {
+  background: linear-gradient(90deg, var(--blush), #fff);
+  border: 1px solid rgba(183, 110, 121, 0.2);
+  border-radius: 24px;
+  padding: 20px 24px;
+  margin-bottom: 24px;
+  max-width: 900px;
+  width: 100%;
+}
+.service-grid,
+.credential-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+  width: 100%;
+}
+.service-card,
+.credential-card,
+.faq-item {
+  background: white;
+  border: 1px solid rgba(183, 110, 121, 0.16);
+  border-radius: 24px;
+  padding: 24px;
+  box-shadow: var(--shadow);
+}
+.service-card h3,
+.credential-card h3,
+.faq-item h3 {
+  margin-top: 0;
+  color: var(--rose-gold);
+}
+.service-card span {
+  display: inline-block;
+  margin-top: 12px;
+  font-weight: 700;
+  color: var(--rose-gold);
+}
+.credential-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 16px;
+  margin-bottom: 16px;
+}
+.credential-card a {
+  color: var(--rose-gold);
+  font-weight: 700;
+}
+.faq-list {
+  display: grid;
+  gap: 16px;
+  width: 100%;
+  max-width: 900px;
+}
+.contact-details {
+  background: white;
+  border: 1px solid rgba(183, 110, 121, 0.16);
+  border-radius: 24px;
+  padding: 24px;
+  box-shadow: var(--shadow);
+  margin-bottom: 24px;
+  width: 100%;
+  max-width: 720px;
+}
 .soft-box {
   padding: 34px;
 }
@@ -360,6 +433,10 @@ footer {
     margin: 0 auto 32px;
   }
   .grid {
+    grid-template-columns: 1fr;
+  }
+  .service-grid,
+  .credential-grid {
     grid-template-columns: 1fr;
   }
   .pricing-card {
